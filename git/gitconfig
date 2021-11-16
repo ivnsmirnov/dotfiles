@@ -6,5 +6,7 @@
 [alias]
 	st = status
 	br = branch
+    co = checkout
+    rh = reset --hard
 	hist = log --pretty=format:'%Cred%h%Creset %ad %C(yellow)|%Creset %s%C(yellow)%d%Creset %C(bold blue)[%an]%Creset' --graph --date=short
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
