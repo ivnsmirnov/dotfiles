@@ -16,3 +16,4 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - vim +PluginInstall +qall
+  - ~/.tmux/plugins/tpm/bin/install_plugins
