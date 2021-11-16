@@ -29,8 +29,11 @@ set expandtab
 
 " highlighting
 syntax on
-"set relativenumber
 set hlsearch
+
+"set relative line numbers
+set number
+set relativenumber
 
 " open file on previous position
 if has("autocmd")
