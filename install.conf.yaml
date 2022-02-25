@@ -12,6 +12,7 @@
     ~/.vimrc: vim/vimrc
     ~/.screenrc: screen/screenrc
     ~/.gitconfig: git/gitconfig
+    ~/.zshrc: zsh/zshrc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
