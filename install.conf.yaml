@@ -6,6 +6,11 @@
 
 - shell:
   - [sh pre-install.sh, Running pre installation script]
+  - [mkdir -p ~/.oh-my-zsh/custom/plugins, Creating oh-my-zsh custom plugins forlders]
+  -
+    command: git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+    stdout: true
+    description: Downloading zsh-autosuggestions
 
 - link:
     ~/.dotfiles: ''
