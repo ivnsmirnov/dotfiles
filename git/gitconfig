@@ -3,6 +3,7 @@
     name = Ivan Smirnov
 [core]
     editor = vim
+    pager = ""
 [alias]
     st = status
     br = branch
