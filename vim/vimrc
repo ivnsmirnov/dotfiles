@@ -55,8 +55,16 @@ autocmd BufReadPost *
 " show position of cursor (number of line and column)
 set ruler
 
+" to make synthwave84 colors work
+set termguicolors
+
 " change color scheme
-colorscheme default
+colorscheme synthwave84
+" synthwave was manually copied from
+" https://github.com/artanikin/vim-synthwave84/blob/55324c7c85a3e0db31502257f711783b8d859b5b/colors/synthwave84.vim
+" and copied to ~/.vim/colors/
+
+
 " list of available schemes (/usr/share/vim/vim74/colors):
 "blue defaul    desert     evening    koehler    murphy     peachpuff  ron        slate      zellner    
 "darkblue   delek      elflord    industry   morning    pablo           shine      torte
