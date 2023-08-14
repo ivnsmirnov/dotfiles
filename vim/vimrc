@@ -54,7 +54,7 @@ autocmd BufReadPost *
 
 
 " change color scheme
-colorscheme delek
+colorscheme default
 " list of available schemes (/usr/share/vim/vim74/colors):
 "blue defaul    desert     evening    koehler    murphy     peachpuff  ron        slate      zellner    
 "darkblue   delek      elflord    industry   morning    pablo           shine      torte
