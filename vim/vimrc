@@ -52,6 +52,8 @@ autocmd BufReadPost *
 \ endif |
 \ endif
 
+" show position of cursor (number of line and column)
+set ruler
 
 " change color scheme
 colorscheme default
